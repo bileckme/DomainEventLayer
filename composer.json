@@ -1,0 +1,24 @@
+{
+    "name": "domain/eventlayer",
+    "description": "Domain EventLayer",
+    "authors": [
+        {
+            "name": "Biyi Akinpelu",
+            "email": "bileckme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "friendsofouro/geteventstore-core": "v0.9.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Domain\\EventLayer\\": "src/Domain/EventLayer"
+        }
+    },
+    "minimum-stability": "stable"
+}
